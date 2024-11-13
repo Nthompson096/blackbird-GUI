@@ -39,6 +39,22 @@ python blackbird.py --email email1@email.com email2@email.com email3@email.com
 python blackbird.py --email email1@email.com --pdf
 ```
 
+Can also use a GUI frontend that uses the CLI tool; just install
+
+```bash
+pip install -r requirements.txt
+```
+
+and run 
+
+```bash
+python blackbird-gui.py
+```
+
+![image](https://github.com/user-attachments/assets/4fd582a9-37dc-4a49-9d75-4b6784781658)
+
+Mind the ASCII; it's using the cli as the backend but it will work with most of the functions to be more GUI friendly (or attempt to be).
+
 ## More
 For more details about the project, visit the <a href="https://p1ngul1n0.gitbook.io/blackbird/">Docs</a>
 
